@@ -21,7 +21,7 @@ Please note that in the case of cumulative opportunities it might have a smaller
 
 ## Referencing
 Please cite this script as:
-Vale, David (2019) Calculating gravity-based and cumulative opportunities from an OD matrix on python. 
+Vale, David (2019) Calculating gravity-based and cumulative opportunities from an OD matrix on python.  Retrieved from: https://github.com/davidsvale/calculate-accessibility
 
 ## References
 Hansen, W.G., 1959. How accessibility shapes land use. Journal of the Am. Instute of Planners 25, 73–76.
