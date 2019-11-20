@@ -7,7 +7,7 @@ Python script to calculate accessibility (gravity-based and cumulative opportuni
    We follow a place-based accessibility framework, in particular the designated gravity-based measures: opportunities are weighted as a function of their distance (physical or relative) from the origin following an impedance function. With the script is also possible to calculate cumulative opportunities measures, which are a special case of gravity-based measures. The latter adopt the same theoretical and methodological framework as the former, but assume a regular impedance function – specifically, opportunities located within a certain threshold are counted while others, beyond the threshold, are not. Although these measures are very sensitive to the threshold value, they are much easier to understand and explain, making them very important for planners and decision-makers.
 
 ### Formula used
-In this script we calculate accessibility of place i as:
+In this script we calculate accessibility of place *i* as:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=A{i}&space;=&space;\sum_{j=1}^n&space;O_jf(C_i_j)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?A{i}&space;=&space;\sum_{j=1}^n&space;O_jf(C_i_j)" title="A{i} = \sum_{j=1}^n O_jf(C_i_j)" /></a>
 
