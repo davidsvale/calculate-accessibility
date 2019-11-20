@@ -1,5 +1,5 @@
 # calculate-accessibility
-Python script to calculate accessibility (gravity and cumulative opportunities) from OD matrix.
+Python script to calculate accessibility (gravity-based and cumulative opportunities) from an origin-destination matrix.
 
 ## A bit of theory
    The literature contains several definitions of accessibility. The first comes from Hansen (1959, p. 73), which sees it as “the potential of opportunities for interaction”. Handy and Niemeier (1997, p. 1175) expand on the definition, noting that this potential is “determined by the spatial distribution of potential destinations, the ease of reaching each destination, and the magnitude, quality, and character of the activities found there”. Accessibility, therefore, reflects land use patterns that determine the spatial distribution of activities and the transport system; these, in turn, determine the ease of reaching a destination.
@@ -18,3 +18,11 @@ It can be a rectangular function (to calculate cumulative opportunities measures
 ### Output file
 Results will be written to a csv file, which contains as many rows as origins in your OD Matrix. 
 Please note that in the case of cumulative opportunities it might have a smaller number of rows, which means that the origin(s) missing have accessibility = 0. For instance, if you are calculating number of jobs accessible within 30 minutes, it simply means that that from that particular origin no job is accessible within 30 minutes.
+
+## Referencing
+Please cite this script as:
+Vale, David (2019) Calculating gravity-based and cumulative opportunities from an OD matrix on python. 
+
+## References
+Hansen, W.G., 1959. How accessibility shapes land use. Journal of the Am. Instute of Planners 25, 73–76.
+Handy, S., Niemeier, D.A., 1997. Measuring accessibility: an exploration of issues and alternatives. Environment and Planning A 29, 1175–1194.
