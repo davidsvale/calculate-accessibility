@@ -19,10 +19,20 @@ It can be a rectangular function (to calculate cumulative opportunities measures
 Results will be written to a csv file, which contains as many rows as origins in your OD Matrix. 
 Please note that in the case of cumulative opportunities it might have a smaller number of rows, which means that the origin(s) missing have accessibility = 0. For instance, if you are calculating number of jobs accessible within 30 minutes, it simply means that that from that particular origin no job is accessible within 30 minutes.
 
-## Citation
+# Files available to test the script
+
+## Input files
+OD_matrix.csv
+DestinationData.csv
+
+## Output files
+AccResults.csv (by running the script you should get exactly the same file)
+
+
+# Citation
 If you have used this script in your work and you would like to cite it, you can use the following reference:
 Vale, David (2019) Calculating gravity-based and cumulative opportunities from an OD matrix on python.  Retrieved from: https://github.com/davidsvale/calculate-accessibility
 
-## References
+# References
 Hansen, W.G., 1959. How accessibility shapes land use. Journal of the Am. Instute of Planners 25, 73–76.
 Handy, S., Niemeier, D.A., 1997. Measuring accessibility: an exploration of issues and alternatives. Environment and Planning A 29, 1175–1194.
