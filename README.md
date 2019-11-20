@@ -11,7 +11,8 @@ In this script we calculate accessibility of place *i* as:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=A{i}&space;=&space;\sum_{j=1}^n&space;O_jf(C_i_j)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?A{i}&space;=&space;\sum_{j=1}^n&space;O_jf(C_i_j)" title="A{i} = \sum_{j=1}^n O_jf(C_i_j)" /></a>
 
-   
+For a deeper understanding of methodologies to calculate accessibility, we refer you to:
+Vale, D. S., Saraiva, M., & Pereira, M. (2015). Active accessibility: A review of operational measures of walking and cycling accessibility. Journal of Transport and Land Use, 9(1). https://doi.org/10.5198/jtlu.2015.593 (Open Access)
 
 
 ## Requirements:
