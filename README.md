@@ -2,10 +2,12 @@
 Python script to calculate accessibility (gravity and cumulative opportunities) from OD matrix.
 
 ## A bit of theory
+   The literature contains several definitions of accessibility. The first comes from Hansen (1959, p. 73), which sees it as “the potential of opportunities for interaction”. Handy and Niemeier (1997, p. 1175) expand on the definition, noting that this potential is “determined by the spatial distribution of potential destinations, the ease of reaching each destination, and the magnitude, quality, and character of the activities found there”. Accessibility, therefore, reflects land use patterns that determine the spatial distribution of activities and the transport system; these, in turn, determine the ease of reaching a destination.
+   We follow a place-based accessibility framework, in particular the designated gravity-based measures: opportunities are weighted as a function of their distance (physical or relative) from the origin following an impedance function. With the script is also possible to calculate cumulative opportunities measures, which are a special case of gravity-based measures. The latter adopt the same theoretical and methodological framework as the former, but assume a regular impedance function – specifically, opportunities located within a certain threshold are counted while others, beyond the threshold, are not. Although these measures are very sensitive to the threshold value, they are much easier to understand and explain, making them very important for planners and decision-makers.
 
 ## Requirements:
-### Input files
-1) OD Matrix (csv file), with three columns: Origin, Destination, CostofTravel (column names are irrelevant, as long as they are in this order)
+### Input files (csv format)
+1) OD Matrix, with three columns: Origin, Destination, CostofTravel (column names are irrelevant, as long as they are in this order)
 2) Data for opportunities found at destination (e.g. jobs at each location)
 
 ### Impendance function
