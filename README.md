@@ -8,7 +8,10 @@ Python script to calculate accessibility (gravity-based and cumulative opportuni
 
 ### Formula used
 In this script we calculate accessibility of place i as:
-Ai = Sum(Oj f(Cij))
+$$A{i} = \sum_{j=1}^n O_jf(C_i_j).$$
+
+   in which:
+   
 
 
 ## Requirements:
