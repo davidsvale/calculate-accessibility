@@ -9,7 +9,7 @@ Python script to calculate accessibility (gravity-based and cumulative opportuni
 ### Formula used
 In this script we calculate accessibility of place i as:
 <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-<img src="https://latex.codecogs.com/gif.latex?A{i} = \sum_{j=1}^n O_jf(C_i_j) />
+<img src="https://latex.codecogs.com/gif.latex?A{i}=\sum_{j=1}^n O_jf(C_i_j) "/>
 $$A{i} = \sum_{j=1}^n O_jf(C_i_j).$$
 
    in which:
