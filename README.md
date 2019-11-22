@@ -33,6 +33,7 @@ Results will be written to a csv file, which contains as many rows as the number
 
 ## Input files
 `OD_Matrix.csv` : file with OD matrix (1054 Origins x 1054 Destinations)
+
 `DestinationData.csv`: file with data for opportunities found at destinations (in this example residents at each destination)
 
 ## Output files
