@@ -30,6 +30,7 @@ Results will be written to a csv file, which contains as many rows as the number
 
 
 # Files available to test the script
+Please copy all files to the same directory and run the script `AccFromODMatrix.py`
 
 ## Input files
 `OD_Matrix.csv` : file with OD matrix (1054 Origins x 1054 Destinations)
