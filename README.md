@@ -17,27 +17,26 @@ Vale, D. S., Saraiva, M., & Pereira, M. (2015). Active accessibility: A review o
 
 
 ## Requirements:
-### Input files (`.csv`)
+### Input files
 1) OD Matrix, with three columns: Origin, Destination, CostofTravel (column names are irrelevant, as long as they are in this order)
 2) Data for opportunities found at destination (e.g. jobs at each location)
 
 ### Impendance function
-You need to define an impedance function to calculate accessibility, i.e. the function f(Cij) in the formula above.
-
-It can be a rectangular function (to calculate cumulative opportunities measures) or an exponential function (in that case you need to set the value for beta)
+With this script, we calculate both an exponential function and a rectangular function.
+You need to set the value for the beta for the exponential function (default value is -0.0384), and the value for delta for the rectangular function (the threshold, default valyue = 30)
 
 ### Output file
-Results will be written to a csv file, which contains as many rows as origins in your OD Matrix. 
-Please note that in the case of cumulative opportunities it might have a smaller number of rows, which means that the origin(s) missing have accessibility = 0. For instance, if you are calculating number of jobs accessible within 30 minutes, it simply means that that from that particular origin no job is accessible within 30 minutes.
+Results will be written to a csv file, which contains as many rows as the number of origins in your OD Matrix. 
+
 
 # Files available to test the script
 
 ## Input files
-OD_matrix.csv
-DestinationData.csv
+`OD_Matrix.csv` : file with OD matrix (1054 Origins x 1054 Destinations)
+`DestinationData.csv`: file with data for opportunities found at destinations (in this example residents at each destination)
 
 ## Output files
-AccResults.csv (by running the script you should get exactly the same file)
+`AccResults.csv` : file with the results for the 1054 origins with two columns: 'Acc_exponential' and 'Acc_cumulative'. By running the script you should get exactly the same file.
 
 
 # Citation
