@@ -43,7 +43,7 @@ Please copy all files to the same directory and run the script `AccFromODMatrix.
 
 # Citation
 If you have used this script in your work and you would like to cite it, you can use the following reference:
-Vale, David (2019) Calculating gravity-based and cumulative opportunities from an OD matrix on python.  Retrieved from: https://github.com/davidsvale/calculate-accessibility
+Vale, David (2019) Calculating gravity-based and cumulative opportunities accessibility from an OD matrix on python.  Retrieved from: https://github.com/davidsvale/calculate-accessibility
 
 # References
 Hansen, W.G., 1959. How accessibility shapes land use. Journal of the Am. Instute of Planners 25, 73–76.
