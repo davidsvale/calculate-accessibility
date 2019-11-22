@@ -34,6 +34,7 @@ Please copy all files to the same directory and run the script `AccFromODMatrix.
 
 ## Input files
 `OD_Matrix.csv` : file with OD matrix (1054 Origins x 1054 Destinations)
+Please note this file is zipped, so you need to unzippit first.
 
 `DestinationData.csv`: file with data for opportunities found at destinations (in this example residents at each destination)
 
