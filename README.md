@@ -38,7 +38,7 @@ You need to set the paramteres of these funcions, namely:
 3) the value for v for the Gaussian function (default value = 324.60614)
 4) the value for a and v for the cumulative-Gaussian function (default values a= 30, v = 324.60614)
 
-We are providing two scripts, exactly the same, but one has these parameters set for pedestian accesibility calculations, assuming that the OD matrix is in distance.
+We are providing two scripts, exactly the same, but one has these parameters set for pedestian accessibility calculations, assuming that the OD matrix has been calculated as walking distance between origins and destinations.
 
 You can alter the parameters in both files (`AccFromODMatrix_v2.py` and `AccFromODMatrix_Walk.py`), but we recomend you to use `AccFromODMatrix_Walk.py` if you are calculating pedestrian accessibility.
 
