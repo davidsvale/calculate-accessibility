@@ -33,10 +33,10 @@ With this script, we calculate:
 4) a cumulative-Gaussian function
 
 You need to set the paramteres of these funcions, namely:
-a) the value for the beta for the exponential function (default value is -0.0384)
-b) the value for delta for the rectangular function (the threshold, default value = 30)
-c) the value for v for the Gaussian function (default value = 324.60614)
-d) the value for a and v for the cumulative-Gaussian function (default values a= 30, v = 324.60614)
+1) the value for the beta for the exponential function (default value is -0.0384)
+2) the value for delta for the rectangular function (the threshold, default value = 30)
+3) the value for v for the Gaussian function (default value = 324.60614)
+4) the value for a and v for the cumulative-Gaussian function (default values a= 30, v = 324.60614)
 
 We are providing two scripts, exactly the same, but one has these parameters set for pedestian accesibility calculations, assuming that the OD matrix is in distance.
 
