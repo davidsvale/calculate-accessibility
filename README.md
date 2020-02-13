@@ -63,7 +63,7 @@ By running the script you should get exactly the same file.
 
 # Citation
 If you have used this script in your work and you would like to cite it, you can use the following reference:
-Vale, David (2020) Calculating accessibility from an OD matrix on python (version 2.0).  Retrieved from: https://github.com/davidsvale/calculate-accessibility
+Vale, David (2020) Calculate accessibility from an OD matrix on python (version 2.0).  Retrieved from: https://github.com/davidsvale/calculate-accessibility
 
 # References
 Hansen, W.G., 1959. How accessibility shapes land use. Journal of the Am. Instute of Planners 25, 73–76.
